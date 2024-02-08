@@ -1,0 +1,150 @@
+@import url("../defaultColors.css");
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--purple);
+}
+
+.email_page_form{
+    width: 40%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.email_form > *{
+    margin: 1%;
+    text-align: center;
+}
+
+.message{
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.error-msg{
+    color: red;
+    margin-top: 0;
+}
+
+.btn{
+    background-color: var(--orange);
+}
+
+.btn:hover{
+    background-color: var(--purple);
+    color: aliceblue;
+}
+
+
+
+/* OTP page */
+
+
+.otp_form_container{
+    width: 30%;
+    height: 60%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otp_form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: gray;
+}
+
+.input{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.input > *{
+    width: 10%;
+    height: 100%;
+    font-size: 200%;
+    border-radius: 10px;
+    margin: 2%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.input > *:nth-child(1){
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.input > *:focus{
+    cursor: none;
+}
+
+button{
+    width: 50%;
+    margin-top: 3%;
+}
+.otp_btn{
+    width: 90%;
+    background-color: var(--orange);
+}
+
+.otp_btn:hover{
+    color: white;
+    background-color: var(--purple);
+}
+
+
+
+/* Change Password */
+
+.form{
+    width: 40%;
+    height: 50%;
+    background-color: white;
+    padding: 2%;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form>*{
+    margin: 2%;
+}
+
+.password,button{
+    width: 80%;
+}
+
+.alert{
+    width: 80%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}

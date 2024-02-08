@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dela+Gothic+One&family=Lobster&family=Luckiest+Guy&family=Monoton&family=Poppins&display=swap');
+@import "../../defaultColors.css";
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.Visitor-Details {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--purple);
+}
+
+.Visitor-Form-div {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    /* border: 2px solid black; */
+    width: 90%;
+    height: fit-content;
+    margin-top: 2%;
+    padding: 0.5%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
+
+.Visitor-logo-div {
+    width: 30%;
+    height: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Visitor-logo-title {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    padding: 1%;
+    margin: 2%;
+    font-size: xx-large;
+}
+
+.Visitor-logo-div img {
+    width: 100%;
+    height: 100%;
+    margin: 5% 1%;
+    justify-self: center;
+    align-self: center;
+}
+
+
+.Visitor-Form-div-1,
+.Visitor-Form-div-2,
+.Visitor-Form-div-3,
+.Visitor-Form-div-4,
+.Visitor-Form-div-5 {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.Visitor-Form {
+    width: 70%;
+    border-left: 1px solid rgb(106, 106, 106);
+}
+
+.Visitor-Form-Name,
+.Visitor-Form-Phone,
+.Visitor-Form-TransportMode,
+.Visitor-Form-Type,
+.Visitor-Form-Address,
+.Visitor-Form-LapMake,
+.Visitor-Form-AdaptMake,
+.Visitor-Form-Time,
+.Visitor-Form-pov {
+
+    width: 50%;
+    height: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Visitor-Form-Name input,
+.Visitor-Form-Phone input,
+.Visitor-Form-TransportMode select,
+.Visitor-Form-Type select,
+.Visitor-Form-LapMake input,
+.Visitor-Form-AdaptMake input,
+.Visitor-Form-Time input,
+.Visitor-Form-pov textarea,
+.Visitor-Form-Address textarea {
+    outline: none;
+    outline-offset: none;
+    border: 2px solid #222;
+    border-radius: 5px;
+    width: 90%;
+    height: fit-content;
+    padding: 2%;
+    margin: 0.5% 3%;
+    font-size: medium;
+    resize: none;
+}
+
+.Visitor-Form-Name label,
+.Visitor-Form-Phone label,
+.Visitor-Form-TransportMode label,
+.Visitor-Form-Type label,
+.Visitor-Form-Address label,
+.Visitor-Form-LapMake label,
+.Visitor-Form-AdaptMake label,
+.Visitor-Form-Time label,
+.Visitor-Form-pov label {
+    font-weight: bolder;
+    margin: 0.5% 3%;
+}
+
+.Visitor-Form-Name span,
+.Visitor-Form-Phone span,
+.Visitor-Form-TransportMode span,
+.Visitor-Form-Type span,
+.Visitor-Form-Address span,
+.Visitor-Form-LapMake span,
+.Visitor-Form-AdaptMake span,
+.Visitor-Form-Time span,
+.Visitor-Form-pov span,
+.Visitor-Form-Upload span {
+    margin: 0.5% 3%;
+    color: rgb(255, 0, 0);
+}
+
+.Visitor-Form-Address textarea,
+.Visitor-Form-pov textarea {
+    height: 10vh;
+}
+
+.Visitor-Form-Upload,
+.Visitor-Form-Submitbtn {
+    width: 50%;
+    height: fit-content;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Visitor-Form-Submitbtn {
+    flex-direction: row;
+}
+
+.Visitor-Form-Upload button,
+.Visitor-Form-Submitbtn input[type='submit'] {
+    width: 50%;
+    background-color: #F9852A !important;
+    transition: background-color 0.5s,color 0.5s;
+}
+.Visitor-Form-Submitbtn input[type='submit']:hover
+{
+    background-color: var(--purple) !important;
+    color: white !important;
+}
+
+.SignUp-Success {
+    width: 25%;
+    position: absolute !important;
+    top: 1%;
+    right: 1% !important;
+}

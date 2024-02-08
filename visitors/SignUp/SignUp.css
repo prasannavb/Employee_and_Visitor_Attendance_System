@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dela+Gothic+One&family=Lobster&family=Luckiest+Guy&family=Monoton&family=Poppins&display=swap');
+@import "../../defaultColors.css";
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: var(--purple);
+
+}
+
+.Employee-SignUp {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Employee-SignUp-title {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    padding: 1%;
+    margin: 2%;
+    font-size: xx-large;
+}
+ 
+.SignUp-Form-Img {
+    width: 90%;
+    border-radius: 5px;
+    margin-top: 2%;
+    height: fit-content;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.SignUp-Form-Logo-div img {
+    margin: 5% 1%;
+
+}
+
+.SignUp-Form-Logo-div {
+    border-right: 1px solid rgb(106, 106, 106);
+    width: 25%;
+    height: 100%;
+    padding: 5% 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Employee-SignUp-Form {
+    width: 75%;
+    height: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Employee-SignUp-div-1,
+.Employee-SignUp-div-2,
+.Employee-SignUp-div-3,
+.Employee-SignUp-div-4 {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.Employee-SignUp-Name,
+.Employee-SignUp-Email,
+.Employee-SignUp-Password,
+.Employee-SignUp-ConfirmPassword,
+.Employee-SignUp-Address,
+.Employee-SignUp-Pan,
+.Employee-SignUp-Aadhar,
+.Employee-SignUp-Dob,
+.Employee-SignUp-Join,
+.Employee-SignUp-Phone,
+.Employee-SignUp-Profile {
+    width: 33.33%;
+    height: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Employee-SignUp-Profile {
+    justify-content: center !important;
+    padding-left: 5%;
+}
+
+.Employee-SignUp-Name input,
+.Employee-SignUp-Email input,
+.Employee-SignUp-Password input,
+.Employee-SignUp-ConfirmPassword input,
+.Employee-SignUp-Pan input,
+.Employee-SignUp-Aadhar input,
+.Employee-SignUp-Dob input,
+.Employee-SignUp-Join input,
+.Employee-SignUp-Phone input,
+.Employee-SignUp-Address textarea {
+    outline: none;
+    outline-offset: none;
+    border: 2px solid #222;
+    width: 90%;
+    height: fit-content;
+    padding: 2%;
+    margin: 0.5% 3%;
+    font-size: medium;
+    resize: none;
+}
+
+.Employee-SignUp-Name label,
+.Employee-SignUp-Email label,
+.Employee-SignUp-Password label,
+.Employee-SignUp-ConfirmPassword label,
+.Employee-SignUp-Address label,
+.Employee-SignUp-Pan label,
+.Employee-SignUp-Aadhar label,
+.Employee-SignUp-Dob label,
+.Employee-SignUp-Join label,
+.Employee-SignUp-Phone label {
+    font-weight: bolder;
+    margin: 0.5% 3%;
+}
+
+.Employee-SignUp-Name span,
+.Employee-SignUp-Email span,
+.Employee-SignUp-Password span,
+.Employee-SignUp-ConfirmPassword span,
+.Employee-SignUp-Address span,
+.Employee-SignUp-Pan span,
+.Employee-SignUp-Aadhar span,
+.Employee-SignUp-Dob span,
+.Employee-SignUp-Join span,
+.Employee-SignUp-Phone span,
+.Employee-SignUp-Profile #profile_photo_link_Err {
+    margin: 0.5% 3%;
+    color: rgb(255, 0, 0);
+}
+
+.Employee-SignUp-Address textarea {
+    height: 10vh;
+}
+
+.Employee-SignUp-Submitbtn {
+    text-align: center;
+    padding: 1%;
+}
+
+.SignUp-Success {
+    width: 25%;
+    position: absolute !important;
+    top: 1%;
+    right: 1% !important;
+}
+
+.signup-btn{
+    background-color: var(--orange) !important;
+    margin-bottom: 1%;
+    transition: background-color 0.5s,color 0.5s;
+
+}
+
+.signup-btn:hover{
+    background-color: var(--purple) !important;
+    color: white !important;
+}
+.file-cta 
+{
+    background-color: #333 !important;
+    color:white !important;
+    transition: background-color 0.5s;
+}
+
+.file-cta:hover
+{
+    background-color: #111 !important;
+}
+#file-name
+{
+    width:69%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: white;
+    color:black;
+    padding:3%;
+    overflow: hidden;
+    cursor: pointer;
+    font-size: small !important        ;
+    
+}
+.Employee-SignUp-Profile
+{
+    display: flex;
+    flex-direction: column;
+}
